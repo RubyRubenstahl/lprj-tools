@@ -1,0 +1,32 @@
+{
+  "name": "lprj-parser",
+  "version": "0.0.1",
+  "description": "Parser for sympholight lprj files",
+  "main": "src/parse-lprj.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "ecue",
+    "e:cue",
+    "Sympholight",
+    "lprj",
+    "lighting",
+    "dmx",
+    "e:pix",
+    "epix",
+    "cores"
+  ],
+  "author": "Ruby Rubensahl",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "change-case": "^3.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "ramda": "^0.26.1"
+  }
+}
